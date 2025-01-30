@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Neue" Helvetica, helvetica, sans-serif;
+}
+.navbar{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+   height: 100px;
+   width: 240px;
+  /* background-color: aliceblue; */
+}
+
+#logo{
+    height: 105px;
+    width: 150px;
+    float: right;
+}
+.nav{
+  height: 100px;
+  width: 1000px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  border-left:2px solid white;
+  /* visibility: visible; */
+}
+.four{
+    color: white;
+    padding-left: 1em;
+    /* visibility: visible; */
+}
+ul{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    /* visibility: visible; */
+}
+li{
+    color:white;
+    list-style: none;
+    font-size:20px ;
+    text-transform: uppercase;
+    /* visibility: visible; */
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    /* visibility: visible; */
+    color: white;
+}
+.sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    visibility: hidden;
+  }
+  .hidden{
+    visibility: hidden;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    /* visibility: hidden; */
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+    /* visibility: hidden; */
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    /* visibility: hidden; */
+  }
+  #hide{
+    height: 100px;
+    width: 170px;
+  }
+  .doha{
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+  }
+  .box{
+    width: 470px;
+    height: 90vh;
+    margin-left: 3em;
+  }
+  .pic{
+    height: 100vh;
+    width: 680px;
+
+  }
+  .form{
+    background-color:#ffffff;
+    height: 100vh;
+  }
+  #doha{
+    font-size: 48px;
+    text-align: center;
+  }
+  .corn{
+    color: black;
+    text-align: center;
+  }
+  .qatar{
+    text-align: center;
+    color: black;
+  }
+  .check{
+    height: 50vh;
+    width: 470px;
+  }
+  .bg-dark{
+    text-align: center;
+  }
+  .input{
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+  }
+  input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+  span{
+    font-size: 22px;
+    padding: 0 .5em 0 .5em;
+  }
+  .feild{
+    width: 370px;
+    margin: 0 auto;
+  }
+  .counter-1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+  }
+  .counter-2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+  }
+  
+  .minus-btn-1, .plus-btn-1, .plus-btn-2, .minus-btn-2 {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .minus-btn {
+    background-color: #b59d9d;
+  }
+  
+  .plus-btn {
+    background-color: #b59d9d;
+  }
+  
+  .count {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  .room{
+    padding: .2em .5em 0 0;
+    font-size: 25px;
+  }
+  #input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+  }
+  .code{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 1em;
+  }
+  .doha-pic{
+    height: 100vh;
+    width: 680px;
+  }
+  .offer{
+    height: 50vh;
+    width: 100%;
+    background-color:white;
+  }
+  .item{
+    height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+   gap: 1em;
+   margin-top: 1em;
+  }
+  .picture{
+    display: flex;
+    flex-direction: row;
+    width: 560px;
+    gap: 1em;
+  }
+  .images{
+    display: flex;
+    flex-direction: row;
+    width: 560px;
+    gap: 1em;
+    justify-content: end;
+  }
+  .pic1 , .pic2, .pic3, .pic4{
+    height: 200px;
+    width: 200px;
+  }
+  .feature{
+    color: black;
+    text-align: center;
+  }
+  .offer-img{
+    height: 200px;
+    width: 200px;
+  }
+  .info{
+    position: relative;
+    top: -19%;
+  }
+  .urban{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    padding-left: 1em;
+  }
+  .all-offer{
+    height: 40vh;
+    width: 100%;
+    background-color:white;
+  }
+  .service{
+   height: 200px;
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   gap: 2em;
+   margin-top: 1em;
+  }
+  .top{
+    height: 150px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: end;
+  }
+  .bottom{
+    height: 150px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+  .location, .accomodation, .photo, .facilities, .dining, .spa{
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+      border: 1px solid gray;
+      border-radius: 10px;
+  }
+ .spa:hover{
+   box-shadow: 0px 0px 5px 0px rgb(184, 178, 178);
+   cursor:pointer ;
+  }
+  .dining:hover{
+    box-shadow: 0px 0px 5px 0px rgb(184, 178, 178);
+    cursor: pointer;
+   }
+   .facilities:hover{
+    box-shadow: 0px 0px 5px 0px rgb(184, 178, 178);
+    cursor: pointer;
+   }
+   .accomodation:hover{
+    box-shadow: 0px 0px 5px 0px rgb(184, 178, 178);
+    cursor: pointer;
+   }
+   .photo:hover{
+    box-shadow: 0px 0px 5px 0px rgb(184, 178, 178);
+    cursor: pointer;
+   }
+   .location:hover{
+    box-shadow: 0px 0px 5px 0px rgb(184, 178, 178);
+    cursor: pointer;
+   }
+  i{
+    font-size:30px;
+    padding: 2em 0 0 2em;
+  }
+  .word{
+     text-align: center;
+     text-transform: capitalize;
+  }
+  .more{
+    text-transform: capitalize;
+    text-align: center;
+  }
+  #car-image{
+    height: 500px;
+    width: 70%;
+    margin-top: 2em;
+    margin: 0 auto;
+  }
+  #carouselExampleCaptions{
+    height: 600px;
+    width: 100%;
+    background-color:#f5f5f5;
+    margin-top: 2em;
+  }
+  .explore{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .heading-five{
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: left;
+    color:white;
+  }
+  .detail{
+    /* background-color: red; */
+    width: 500px;
+    margin-top: -13em;
+    margin-left: 14em;
+    animation: move-up 2s ;
+    animation-delay: 1s ;
+  }
+  @keyframes move-up{
+   0%{
+      transform:translateY(100%);
+   }
+   100%{
+    transform: translateY(0%);
+   }
+  }
+  .memories{
+    text-align: left;
+    color: white;
+    font-size: 20;
+  }
+  .discover{
+    height: 120vh;
+    width: 100%;
+    background-color: white;
+  }
+  .dis{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+  }
+  .cover{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  .heart, .dinner, .safari{
+    height: 100vh;
+    width: 350px;
+    background-color: #f1f1f1f3;
+    transition: transform 1s ease-in-out;
+  
+  }
+  .heart:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .safari:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .dinner:hover{
+    transform: scale(1.1);
+    cursor: pointer;  
+  }
+  .cover-img{
+    height: 50vh;
+    width:350px;
+  }
+  .h-6{
+    font-size: 26px;
+    text-transform: capitalize;
+    padding-top: .6em;
+    padding-left: .3em;
+  }
+  .para{
+    text-align: left;
+    padding-left: .5em;
+  }
+  .qar{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  #qar{
+    font-size: 10px;
+  }
+  .restaurant{
+    height: 140vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+  }
+  .information{
+    height: 30vh;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #dining{
+    color: black;
+    text-transform: capitalize;
+  }
+  .rest{
+    text-transform: uppercase;
+   font-size: 20px;
+   font-weight: bold;
+  }
+  .innovate{
+    text-align: left;
+
+  }
+  .pict{
+    height:100vh ;
+    width: 90%;
+    background-color: red;
+    margin: 0 auto;
+  }
+  #pict{
+    height:100vh ;
+    width: 100%;
+  }
+  .fs{
+    height: 70vh;
+    width: 100%;
+  }
+  .fs-doha{
+    height: 70vh;
+    width: 90%;
+    margin: 0 auto;
+    background-color:white;
+  }
+  #fs-doha{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+  }
+  .Visit{
+    text-align: center;
+    padding-top: 1em;
+  }
+  .both{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  .hf, .ny{
+  height: 250px;
+  width: 200px;
+  }
+  .nd{
+    height: 200px;
+    width: 200px;
+  }
+  .name{
+    font-size: 18px;
+    margin-top: -1em;
+  }
+  .footer{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+
+  }
+  .f-img{
+    height: 130px;
+    width: 200px;
+    margin-left: 30em;
+    margin-top: 1em;
+  }
+  .footer-item{
+    height:60vh;
+    width: 90%;
+    margin: 0 auto;
+    gap: 3em;
+    display: flex;
+    flex-direction: row;
+  }
+  .first, .second, .third, .fourth{
+    height: 55vh;
+    width: 250px;
+  }
+  .u-list{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: white;
+  }
+  #list{
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    
+  }
+  .list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+  }
+  .copy-right{
+    background-color:black;
+    height: 40vh;
+    
+  }
+  .line-last{
+    color: white;
+    padding-left: 2em;
+  }
+  hr{
+    width: 70%;
+    margin-left: 2em;
+  }
