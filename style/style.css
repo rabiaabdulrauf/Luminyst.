@@ -28,71 +28,67 @@
   display: flex;
   flex-direction: column;
   border-left:2px solid white;
-  /* visibility: visible; */
+  visibility: visible;
 }
 .four{
     color: white;
     padding-left: 1em;
-    /* visibility: visible; */
 }
 ul{
     color: black;
     display: flex;
     flex-direction: row;
     gap: 2vw;
-    /* visibility: visible; */
 }
 li{
     color:white;
     list-style: none;
     font-size:20px ;
     text-transform: uppercase;
-    /* visibility: visible; */
 }
 li:hover{
     text-decoration: underline;
     cursor: pointer;
-    /* visibility: visible; */
     color: white;
 }
+
 .sidenav {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    visibility: hidden;
-  }
-  .hidden{
-    visibility: hidden;
-  }
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    /* visibility: hidden; */
-  }
-  .sidenav a:hover {
-    color: #f1f1f1;
-    /* visibility: hidden; */
-  }
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.spn-side{
+  visibility: hidden;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
   
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    /* visibility: hidden; */
-  }
   #hide{
     height: 100px;
     width: 170px;
@@ -168,6 +164,7 @@ li:hover{
     border: 1px solid black;
     width: 350px;
     height: 40px;
+    margin-top: .5em;
   }
   
   .minus-btn-1, .plus-btn-1, .plus-btn-2, .minus-btn-2 {

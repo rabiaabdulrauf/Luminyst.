@@ -35,7 +35,7 @@
     .four{
         color: white;
         padding-left: 1em;
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     ul{
         color: black;
@@ -54,50 +54,50 @@
     li:hover{
         text-decoration: underline;
         cursor: pointer;
-        visibility: hidden;
+        /* visibility: hidden; */
     }
+    .bg-dark{
+      width: 300px;
+    }
+       
     .sidenav {
-        height: 100%;
-        width: auto;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-        visibility: visible;
-      }
-      .hidden{
-        visibility: visible;
-        margin-left: -28em;
-       color:white;
-       margin-top: -1.5em;
-       font-size: 20px;
-      }
-      .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-        /* visibility: visible; */
-      }
-      .sidenav a:hover {
-        color: #f1f1f1;
-        /* visibility: visible; */
-      }
-      
-      .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-        /* visibility: visible; */
-      }
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    .spn-side{
+      visibility:visible;
+      color: white;
+      margin-top: -1.5em;
+    }
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
       #hide{
         height: 100px;
         width: 170px;
@@ -145,7 +145,7 @@
       }
       .input{
         border: 1px solid black;
-        width: 350px;
+        width: 310px;
         height: 40px;
       }
       input{
@@ -169,6 +169,21 @@
         height: 40px;
       }
       
+      .counter-1 {
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        width: 310px;
+        height: 40px;
+      }
+      .counter-2 {
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        width: 310px;
+        height: 40px;
+        margin-top: .5em;
+      }
       .minus-btn, .plus-btn {
         width: 20px;
         height: 20px;
@@ -195,7 +210,7 @@
         font-size: 25px;
       }
       #input{
-        width: 350px;
+        width: 310px;
         height: 40px;
         border: 1px solid black;
       }
