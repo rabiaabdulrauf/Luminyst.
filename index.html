@@ -25,7 +25,7 @@
             <ul>
                 <li>hotel overview</li>
                 <li>accomodation</li>
-                <li>offers</li>
+                <li> <a href="#offer-page">offers</a></li>
                 <li>experience</li>
                 <li>dining</li>
                 <li>location</li>
@@ -36,10 +36,12 @@
        <!----------------------------------------------side bar menu--------------->
        <div id="mySidenav" class="sidenav">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <a href="#">About</a>
-         <a href="#">Services</a>
-         <a href="#">Clients</a>
-         <a href="#">Contact</a>
+         <a href="#">Hotel overview</a>
+         <a href="#">Accomodation</a>
+         <a href="#offer-page">Offers</a>
+         <a href="#">Experience</a>
+         <a href="#">Dining</a>
+         <a href="#">Location</a>
        </div>
        <span style="font-size:30px;cursor:pointer" class="spn-side" onclick="openNav()">&#9776;</span> 
     </div>
@@ -55,25 +57,17 @@
                <div class="check">
                 <h2 class="bg-dark text-white">Check Rates & Availability</h2>
                  <div class="feild">
-                <p class="code">Check in — Check out</p>
+                  <form action="https://formsubmit.co/rabiaabdulrauf18@gmail.com" method="POST">
+                <p class="code">Check in </p>
                 <div class="input">
-                <input type="date"><span>-</span><input type="date">
+                <input type="date" name="date" class="input">
             </div>
-            <p class="code">GUEST</p>
-            <div class="counter-1">
-                <span class="room">Room</span>
-                <button class="minus-btn-1" onclick="minus1()">-</button>
-                <span class="count-1">0</span>
-                <button class="plus-btn-1" onclick="plus1()">+</button>
-              </div>
-              <div class="counter-2">
-                <span class="room">Children</span>
-                <button class="minus-btn-2" onclick="minus2()">-</button>
-                <span class="count-2">0</span>
-                <button class="plus-btn-2" onclick="plus2()">+</button>
-              </div>
-             <p class="code">PROMO CODE</p>
-              <input type="text" id="input">
+            <p class="code">Email</p>
+            <input type="email" name="email" class="input">
+              <p class="code">Name</p>
+              <input type="text" name="name" class="input">
+              <button class="Check-avail">Submit</button>
+            </form>
         </div>
                </div>
             </div>
@@ -118,7 +112,7 @@
      </div>
      </div>
      <!-------------------------------------all offer------------------->
-    <div class="all-offer">
+    <div class="all-offer" id="offer-page">
         <h3 class="more">more offer</h3>
         <div class="service">
         <div class="top">
